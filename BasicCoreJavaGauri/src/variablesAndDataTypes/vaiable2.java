@@ -1,10 +1,10 @@
-package variablesAndDatatypes;
+package variablesAndDataTypes;
 
-public class Variables {
+public class vaiable2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-          // String
+		// String
 		String name="Gauri";
 		 // age
 		int age=25;
@@ -15,6 +15,7 @@ public class Variables {
 		//Gender
 		char gender = 'M';
 		
+	
 	}
 
 }
