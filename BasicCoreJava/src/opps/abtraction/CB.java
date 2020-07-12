@@ -1,0 +1,9 @@
+package opps.abtraction;
+
+public interface CB {
+
+public static void CBOrders()
+{
+	System.out.println("CB orders");
+}
+}
