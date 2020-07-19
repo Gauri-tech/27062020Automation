@@ -14,7 +14,7 @@ public class ThrowsKeyword {
 
 		test3();
 		test4();
-
+//test5();
 	}
 
 	public static void test() throws FileNotFoundException {
@@ -40,4 +40,19 @@ public class ThrowsKeyword {
 	public static void test4() throws IOException {
 
 	}
-}
+	/*public static void test5(int age)
+	{
+		if (age>=18)
+		{
+			System.out.println("you are eligible");
+		}
+		else
+			{throw new Exception("Your age is below 18");
+			}
+	}*/
+		
+		
+	}
+	
+	
+
