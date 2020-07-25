@@ -10,7 +10,15 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Xls_Reader {
 
-	public String getCellData(String path, String sheetName, int rowNum, int colNum) throws IOException {
+	
+	String path;
+	public Xls_Reader (String path)
+	{ 
+		this.path=path;
+	}
+	
+	// path is contanst through out the function
+	public String getCellData(String sheetName, int rowNum, int colNum) throws IOException {
 
 		FileInputStream file = new FileInputStream(path);
 

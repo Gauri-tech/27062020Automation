@@ -10,12 +10,14 @@ public class Car {
 		System.out.println("Car features are Colour=" + colour + ", and capacity=" + capacity);
 	}
 
-	public Car(String colour, int capacity) {
+	public Car(String colour, int capacity) // parameter constructor
+	{
 		this.colour= colour;
 		this.capacity= capacity;
 
 	}
-public Car() {
+public Car() // default constructor
+{
 	
 }
 
